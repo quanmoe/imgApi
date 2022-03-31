@@ -1,0 +1,10 @@
+{
+  "name": "imgResources",
+  "version": "1.0.0",
+  "config": {
+    "imgPath": [
+      "aaa",
+      "bbb"
+    ]
+  }
+}

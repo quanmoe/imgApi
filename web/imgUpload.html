@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>图片上传</title>
+    <link rel="shortcut icon" href="https://s2.loli.net/2022/03/30/DACwWgqsZS4JfO7.png" type="image/x-icon">
+    <!-- 新 Bootstrap5 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+
+    <!--  popper.min.js 用于弹窗、提示、下拉菜单 -->
+    <script src="https://cdn.staticfile.org/popper.js/2.9.3/umd/popper.min.js"></script>
+
+    <!-- 最新的 Bootstrap5 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-md">
+    <div class="mt-5">
+        <div class="h1 text-center">文件上传</div>
+        <form action="/img/upload" enctype="multipart/form-data" method="post">
+            <div class="input-group mt-3">
+                <span class="input-group-text">token</span>
+                <input type="text" class="form-control" name="token">
+            </div>
+            <br/>
+            <div class="mt-3">
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio1" name="type" value="moe" checked>
+                    <label class="form-check-label" for="radio1">moe</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio2" name="type" value="wallpaper">
+                    <label class="form-check-label" for="radio2">wallpaper</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio3" name="type" value="imgbed">
+                    <label class="form-check-label" for="radio3">imgbed</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="radio4" name="type" value="moeR18">
+                    <label class="form-check-label" for="radio4">~(*^W^*)~</label>
+                </div>
+            </div>
+            <br/>
+            <div class="input-group mb-3">
+                <span class="input-group-text">token</span>
+                <input type="file" class="form-control" name="file">
+            </div>
+            <input class="btn btn-success" type="submit" value="上传">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "imgResources",
+  "version": "1.0.0",
+  "document": [
+    "目前json可变内容为{config.typeName,config.imgPath,config.R18Path},且{typeName}的值必须与{imgPath},{R18Path}的值的名称对应",
+    "{config.token}为自定义上传密匙，值可修改"
+  ],
+
+  "config": {
+    "type": "imgPath",
+    "typeName": ["moe","wallpaper","imgbed","moeR18"],
+    "imgPath": {
+      "moe": "D:\\programmer\\Java\\work\\Pic\\web\\img",
+      "wallpaper": "D:\\programmer\\Java\\work\\Pic\\web\\img",
+      "imgbed": "D:\\programmer\\Java\\work\\Pic\\web\\img"
+    },
+    "R18Path": {
+      "moeR18": "D:\\programmer\\Java\\work\\Pic\\web\\img"
+    },
+    "token": "yuquan"
+  }
+}
